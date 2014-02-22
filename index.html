@@ -1,0 +1,824 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <link rel="shortcut icon" 
+  href="favicon.ico"
+  type="image/x-icon" />
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Genesis of Robotics is a home-school robotics team participating in the 2013 Texas BEST Robotics competition, GateKeeper.">
+  <title>Genesis of Robotics | BEST Robotics Team</title>
+
+  <link rel="stylesheet" href="stylesheets/normalize.css" />
+  
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	
+  <link rel="stylesheet" href="webfonts/opensans_regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="webfonts/opensans_italic_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="webfonts/opensans_light_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="webfonts/opensans_lightitalic_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+	
+
+  
+  
+
+  <script src="javascripts/vendor/custom.modernizr.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44188251-1', 'genesisofrobotics.com');
+  ga('send', 'pageview');
+
+ </script>
+ 
+</head>
+
+<body>
+	<a id="lol"><img src="images/BEST_logo_atom_color.png"></a>
+	
+	<div class="show-for-small" id="rotate"><h6 class=" hide-for-portrait" >Please rotate device to portrait.</h6></div>
+
+	<!--This is the top bar. Let Conner work with it: its a bit convoluted and tricky.-->
+	<div class="fixed">
+		
+		<nav class="top-bar">
+		  <ul class="title-area">
+		    
+		    <li class="name">
+			<!--Leave Empty	-->
+		    </li>
+		   
+		    <li class="toggle-topbar menu-icon"><a href="#header"><span>Menu</span></a></li>
+		  </ul>
+		
+		  <section class="top-bar-section">
+			
+			<ul class="right">
+				
+				<li class="hide-for-small">
+					 <a href="http://best.eng.auburn.edu/" target="_blank">
+						<img class="center best-button-topbar"  src="images/BEST_logo_atom_white.png" onmouseover="this.src='images/BEST_logo_atom_color.png'" onmouseout="this.src='images/BEST_logo_atom_white.png'">
+					</a>
+				</li>
+				
+				<li class="youtube social-button hide-for-small"><a  href="http://www.youtube.com/user/GenesisofRobotics" target="_blank"><i class="icon-youtube-play"></i></a></li>
+				
+				<li class="googleplus social-button hide-for-small"><a  href="https://plus.google.com/100709379743342188196" target="_blank">&#xf0d5;</a></li>
+				
+				
+			</ul>
+		    
+		    
+			<ul id="nav">
+				<li class="hide-for-small" ><a href="#header">Genesis of Robotics</a></li>
+				
+				<li class="divider hide-for-small"></li>
+				<!--<li class="active hide-for-small" id="dummy"><a href="#header"></a></li>-->
+				<li class="" ><a href="#about">About</a></li>
+				
+				<li class="" ><a href="#therobot">The Robot</a></li>
+				
+				<li class=""><a href="#game" >The Game</a></li>
+				
+				<li class=""><a href="#history">History</a></li>
+				
+				<li class="hide-for-small"><a href="#members">Members</a></li>
+			      
+				<li class=""><a href="#media">Media</a></li>
+				
+				<!--Copies of the links above-->
+				<li class="youtube social-button show-for-small"><a  href="http://www.youtube.com/user/GenesisofRobotics" target="_blank"><i class="icon-youtube-play"></i></a></li>
+				
+				<li class="googleplus social-button show-for-small"><a  href="https://plus.google.com/100709379743342188196" target="_blank">&#xf0d5;</a></li>
+				
+				<li class=" show-for-small"><a href="http://best.eng.auburn.edu/" target="_blank">
+					<img class=" best-button-topbar"  src="images/BEST_logo_atom_white.png" onmouseover="this.src='images/BEST_logo_atom_color.png'" onmouseout="this.src='images/BEST_logo_atom_white.png'">
+					</a></li>
+				
+				
+			      
+				
+				
+				
+				
+			
+			</ul>
+		    
+		    
+		
+		    
+		  </section>
+		</nav>
+		<img src="http://img1.123tagged.com/en/DiscoBalls/14.gif" alt="discoBall" id="discoBall" class="center" style="display: none;">
+	</div>
+	
+	<section id="header">
+		<div class="full-width">
+			<div class="row">
+				<div class="large-10 small-centered columns">
+					<img class="center" id="logo" src="images/earth-logo-new.png">
+					<img class="center" id="genesisofrobotics" src="images/title.png">
+					<!--<h1 class="white-text">Genesis of Robotics</h1>-->
+					
+					
+					<h2>The next generation of robotics. <br>
+					For your <a class="rotate-1" href="http://best.eng.auburn.edu/" target="_blank"><b>BEST</b>
+					<img class=" best-button-topbar "  src="images/BEST_logo_atom_color.png" >
+					</a> results</h2>
+				</div>
+				
+					<h1 class="text-center" id="arrow"><i class="icon-arrow-down"></i></h1>
+				
+				
+				
+			</div>
+		</div>
+	</section>
+
+	<section id="wind" class"page">
+		<div class="row">
+			<div class="large-10 small-centered columns" style="height:1500px; position:relative" >
+				<img id="rotator1" class="center" src="images/rotator1.png" style="position:absolute;">
+				<img id="rotator2" class="center" src="images/rotator2.png" style="position:absolute;">
+			</div>
+		</div>
+	</section>
+	
+	<section id="about" class="page">
+		
+		<div class="row">
+			<div class="large-12 columns">
+				<h2 class="text-center">Who are we?</h2>
+			</div>
+		</div>
+		
+		<div class="row" >
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners center" src="images/caleb_gabe.jpg" alt="measuring image">
+				<h3 class="subheader text-center">Team</h3>
+				<p>Genesis of Robotics is a home-school robotics team of 15 participating in the 2013 Texas BEST Robotics competition, GateKeeper.  We are a team of engineers, artists, and designers.</p>
+				
+				
+			</div>
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners center" src="images/drawing.jpg" alt="measuring image">
+				<h3 class="subheader text-center">Mission</h3>
+				<p>Genesis of Robotics is a highly competitive team. We are determined to do our best this year and every one of us will put blood, sweat and tears into the competition. Our mission is to use each of our unique, God given gifts to the best of our abilities to take our team to the top. Look out, BEST opponents!</p>
+			</div>
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners center" src="images/pray.JPG" alt="team photo">
+				<h3 class="subheader text-center">Values</h3>
+				<p>Our team is thoroughly grounded in Christ and prayer and we give God all the glory for our ideas and success. After all, He is the Master Designer. <blockquote>Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him and he will make your paths straight. <cite> Proverbs 3:5-6</cite></blockquote></p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-6 small-8 small-centered columns" id="email">
+				<img class="center rounded-image-corners " src="images/giffy2.gif">
+				<h3 class=" text-center">Contact us at</h3>
+				<img class="center" id="email" src='images/email.png'>
+			</div>
+		</div>
+		
+		<div class="row" id="therobot">
+			<div class="large-8 small-centered columns">
+				<img class="center rounded-image-corners" src="images/robot_main.jpg">
+			</div>
+		</div>
+		
+		<div class="row" >
+			<div class="large-6 columns">
+				<h2 class="section-title-right">The Robot</h2>
+			</div>
+			
+			<div class="large-6 columns">
+				<p>We believe that Genesis of Robotics has constructed a robot of superior quality, one that has scored high on the testing field and at the competition.  Engineers have worked to perfect its design for the highest possible score and best quality.  Our goal is to develop this machine into a winning prototype that BEST Inc. will choose for its ease of use and ability.  Come on competition day to see how our robot has improved!</p>
+			</div>
+		</div>
+		
+		
+		
+		<div class="row" >
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners " src="images/robot_base.jpg">
+				<h3 class="subheader text-center">The Base</h3>
+				<p>The robot's core structure is a tower extending to near the maximum height possible.  This tower's rigidity makes the entire machine stable and durable.  The base is able to rotate 360 degrees to access materials at any angle.</p>
+				
+				
+			</div>
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners" src="images/robot_arm.jpg" alt="measuring image">
+				<h3 class="subheader text-center">The Arm</h3>
+				<p>The robot's arm extends and adapts to the challenge, capable of positioning the grasper as far as needed.  The arm operates with precision, raising by a powerful winch and extending with exactness.  The front part of the arm folds into the 2 foot cube at the beginning of a testing match, then swings out into a locked position for greater reach.  This innovative locking mechanism lets the robot fit BEST Inc. specifications while extending our reach to the furthest components. </p>
+			</div>
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners center" src="images/robot_grasper.jpg" alt="team photo">
+				<h3 class="subheader text-center">The Grasper</h3>
+				<p>The robot's grasper is designed to grip transistor containers and logic gates with accuracy and security.  The wrist is able to twist 360 degrees to flip transistor containers and position logic gates.  The flat edges at the front of the grasper grip integrated circuits, allowing final assembly into CPUs.  Our special attachments are able to install two logic gates at once, halfing the assembly time of integrated circuits. </p>
+			</div>
+		</div>
+		
+		
+		
+	</section>
+	
+	
+	
+	
+	
+	
+	<section id="BEST" class="page">
+		
+		<div class="row">
+			<div class="small-12 columns">
+				<a class="" href="http://www.bestinc.org" target="_blank">
+					<img class="center" src="images/best_logo_2.png" alt="BEST">
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-6 columns">
+				<h2 class="section-title-right">What is BEST?</h2>
+				
+			</div>
+			<div class="large-6 columns" >
+			
+				<p>BEST &#40Boosting Engineering Science and Technology&#41 gives middle school and high school students nationwide the valuable opportunity to learn about real-world engineering through the design, composition, and marketing of a robot.<br><br>The mission of BEST Inc. is to &#34;inspire students to pursue careers in engineering, science, technology, and mathematics through robotics design.&#34; <br>The significance of BEST lies not only in the great opportunity for the students to grow their leadership, teamwork, problem solving, and abstract thinking skills, but also as a way for students to explore various career paths as they prepare for their future in the real world.<br><br> Learn more at <a href="http://www.bestinc.org" target="_blank">BESTinc.org</a></p>
+			</div>
+			<!--<div class="large-5 large-offset-1 columns">
+				
+			</div>-->
+		</div>
+	</section>
+	
+	<section id="game" class="page">
+		<div class="row">
+			<div class="large-12 small-10 small-centered columns">
+				<img class="center" src="images/gatekeeper_graphic.png">
+			</div>
+		</div>
+		
+		<div class="row" >
+			<div class="large-6 columns">
+				<h2 class="section-title-right">What is our challenge?</h2>
+			</div>
+			
+			<div class="large-6 columns">
+				<p>2013's BEST competition, GateKeeper, is based on the rapidly growing area of computer technology. Teams are given six weeks to design and build a robot, create a technical notebook, and prepare a tradeshow exhibit and marketing presentation. Then, they will compete in a timed environment to build a CPU &#40Central Processing Unit&#41 by remotely controlling a robot to manipulate and assemble electronic parts.</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-5 small-centered columns">
+				<img class="center" src="images/field.png">
+			</div>
+		</div>
+		
+		<div class="row" >
+			<div class="large-6 columns">
+				<h3 class="section-title-right subheader">The Field</h3>
+			</div>
+			
+			<div class="large-6 columns">
+				<p>The robot will be mounted on a platform that slides along a track and swings across the factory floor.  The operator controls the robot from the side, while the spotter operates the moving platform.  The CPU is assembled through multiple rounds of production and in three stages, with components persistant between them. </p>
+			</div>
+		</div>
+		
+		
+		
+		<div class="row" >
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners " src="images/stage_1.png" alt="measuring image">
+				<h3 class="subheader text-center">Stage 1</h3>
+				<p>The robot collects transistor containers and installs them on the assembly line.  Depending on how they are installed, the machine will produce a different amount of the respective logic gate.</p>
+				
+				
+			</div>
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners" src="images/stage_2.png" alt="measuring image">
+				<h3 class="subheader text-center">Stage 2</h3>
+				<p>The robot places logic gates collected in the first stage on the appropriate IC assembly lines.  When the right combination of gates are supplied, an integrated circuit is produced.</p>
+			</div>
+			
+			<div class="large-4 columns">
+				<img class="rounded-image-corners center" src="images/stage_3.png" alt="team photo">
+				<h3 class="subheader text-center">Stage 3</h3>
+				<p>The robot places the ICs produced in stage 2 on the assembly table to produce a CPU (Central Processing Unit).</p>
+			</div>
+		</div>
+		
+		<div class="row" >
+			<div class="large-6 columns">
+				<h2 class="section-title-right">How can you help us?</h2>
+			</div>
+			
+			<div class="large-6 columns">
+				<p>You can help us by coming to support us at the competitions!  If you plan on attending, please let us know	  </p>
+				<ul class="vcard center">
+					<li class="fn">Regional Competition</li>
+					<li class="street-address">November 9</li>
+					
+				</ul>
+				<h3 >For more information:</h3>
+				<img src='images/email.png'>
+			</div>
+		</div>
+			</div>
+		</div>
+		
+	</section>
+	
+	<section id="history" class="page">
+	
+		
+		<div class="row">
+			<div class="large-6 columns">
+				<h2 class="section-title-right">History</h2>
+			</div>
+			<div class="large-6 columns ">
+				
+				<p>The Genesis of Robotics Team was organized in 2012 for the BEST Warp XX Challenge. The team formed because of a shared interest in robotics and competition. The BEST competition gave Genesis of Robotics an amazing bonding and learning experience and better prepared each individual team member for their future.</p>	
+			</div>
+		</div>
+		<div class="row" >
+			
+			<div class="large-7 small-centered columns">
+				
+				<img class="rounded-image-corners" src="images/win_13_1.jpg" alt="team photo">
+				
+			</div>
+		</div>
+		
+			
+		<div class="row">
+				
+			<div class="large-6 columns">
+				<h4 class="subheader section-title-right">2013</h4>
+			</div>
+			
+			<div class="large-6 columns">
+					
+				<p>The team is proud of their success at <a href="http://www.cowtownbest.org/">Cowtown BEST</a>, and is preparing themselves for regionals.  They intend to improve their performance significantly for success at <a href="http://www.utdallas.edu/best/">Texas BEST</a>!
+				
+				
+				</p>	
+			</div>
+		</div>
+		
+		<div class="row">
+				
+			<div class="large-6 columns">
+				<h4 class="subheader section-title-right">Achievements</h4>
+			</div>
+			
+			<div class="large-6 columns">
+					
+				<ul>
+					
+					<li>1st Place BEST Award</li>
+					<li>3rd Place Robot Score</li>
+					<li>Advancement to Regionals</li>
+					
+				</ul>
+				
+				
+			</div>
+		</div>
+			
+			
+		
+		
+		<div class="row">
+			
+			<div class="large-7 small-centered columns">
+				
+				<img class="rounded-image-corners" src="images/win_history.jpg" alt="team photo">
+				
+			</div>
+			
+		</div>
+		
+	<div class="row">
+				
+			<div class="large-6 columns">
+				<h4 class="subheader section-title-right">2012</h4>
+			</div>
+			
+			<div class="large-6 columns">
+					
+				<p>The team was tasked with building a multi-functional vehicle for the <span data-tooltip class="has-tip" title="A theoretical elevator that consists of a cable running from the earth to orbit, enabling cheap and efficient space access without rockets. ">Space Elevator</span>.  The vehicle had to grab various equipment from the base station, carry it up the cable to the midway station, and install it there, all within a stringent time limit. As in every BEST challenge, the competition included marketing before a panel of judges, an exhibit, and a technical notebook.<br>
+				
+				
+				</p>	
+			</div>
+		</div>
+		
+		<div class="row">
+				
+			<div class="large-6 columns">
+				<h4 class="subheader section-title-right">Achievements</h4>
+			</div>
+			
+			<div class="large-6 columns">
+					
+				<ul>
+					
+					<li>1st Place BEST Award</li>
+					<li>4th Place Robot Score</li>
+					<li>Best Presentation</li>
+					<li>Best Exhibit</li>
+					<li>Best Technical Notebook</li>
+					<li>Best New Team</li>
+					<li>Advancement to Regionals</li>
+					
+				</ul>
+				
+				
+			</div>
+		</div>
+			
+			
+		
+	
+	</section>
+	
+	<section id="members" class="page hide-for-small">
+		<div class="row">
+			<div class="large-12 columns">
+				
+				<h2 class="text-center">Members</h2>
+				<a href="#media" class="small button show-for-small">Skip Past Section</a>
+				<h4 class="subheader show-for-small">Touch them for more</h4>
+			</div>
+		</div>
+		
+		<div class="row"  >
+			<!--The following is sorted by columns, watch out!-->
+			<div class="large-4 columns">
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0005_James.png" >
+					</div>
+					<h3 class="subheader">James</h3>
+					<h5 class="subheader">Team Captain</h5>
+					<h5 class="subheader">Sophomore</h5>
+				
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0006_Kaitlyn.png" >
+					</div>
+					<h3 class="subheader">Kaitlyn</h3>
+					<h5 class="subheader">Co-Captain</h5>
+					<h5 class="subheader">Sophomore</h5>
+				
+				
+				
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0014_Aaron.png" >
+					</div>
+					<h3 class="subheader">Aaron</h3>
+					<h5 class="subheader">Engineer</h5>
+					<h5 class="subheader">Senior</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0002_Jeffrey.png" >
+					</div>
+					<h3 class="subheader">Jeffrey</h3>
+					<h5 class="subheader">Engineer</h5>
+					<h5 class="subheader">Senior</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0008_Anna.png" >
+					</div>
+					<h3 class="subheader">Anna</h3>
+					<h5 class="subheader">Marketing Artist</h5>
+					<h5 class="subheader">Sophomore</h5>
+				
+				
+			
+				
+			</div>
+			
+			<div class="large-4 columns">
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0003_Conner.png" >
+					</div>
+					<h3 class="subheader">Conner</h3>
+					<h5 class="subheader">Engineering Director</h5>
+					<h5 class="subheader">Junior</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0013_Zachary.png" >
+					</div>
+					<h3 class="subheader">Zachary</h3>
+					<h5 class="subheader">Engineer</h5>
+					<h5 class="subheader">Junior</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0001_Nathaniel.png" >
+					</div>
+					<h3 class="subheader">Nathaniel</h3>
+					<h5 class="subheader">Engineer</h5>
+					<h5 class="subheader">Junior</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0004_Isaac.png" >
+					</div>
+					<h3 class="subheader">Isaac</h3>
+					<h5 class="subheader">Engineer</h5>
+					<h5 class="subheader">Sophomore</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0000_Peter.png" >
+					</div>
+					<h3 class="subheader">Peter</h3>
+					<h5 class="subheader">Marketing Artist</h5>
+					<h5 class="subheader">Sophomore</h5>
+				
+				
+				
+			</div>
+			
+			<div class="large-4 columns">
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0010_Gabe.png" >
+					</div>
+					<h3 class="subheader">Gabe</h3>
+					<h5 class="subheader">Marketing Director</h5>
+					<h5 class="subheader">Sophomore</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0009_Lexi.png" >
+					</div>
+					<h3 class="subheader">Lexi</h3>
+					<h5 class="subheader">Marketing Designer</h5>
+					<h5 class="subheader">Sophomore</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0007_Deborah.png" >
+					</div>
+					<h3 class="subheader">Deborah</h3>
+					<h5 class="subheader">Marketing Writer</h5>
+					<h5 class="subheader">Junior</h5>
+				
+				
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0012_Caleb.png" >
+					</div>
+					<h3 class="subheader">Caleb</h3>
+					<h5 class="subheader">Marketing and Rules Advisor</h5>
+					<h5 class="subheader">Sophomore</h5>
+				
+				
+				
+				
+					<div class="avatar">
+						<img class="  center" src="images/avatars/head_shots_0011_Emily.png" >
+					</div>
+					<h3 class="subheader">Emily</h3>
+					<h5 class="subheader">Marketing and Rules Advisor</h5>
+					<h5 class="subheader">Senior</h5>
+				
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		
+	</section>
+	
+	<section id="media" class="page">
+		<div class="row">
+			<div class="large-12 columns">
+				<h2 class="text-center">Media</h2>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-10 large-centered columns">
+				
+				<div class="slideshow-wrapper">
+					<div class="preloader"></div>
+					<ul data-orbit>
+						
+						<li>
+						  <img src="images/orbit/8.JPG" />
+						  <div class="orbit-caption">Robot before Hub on Testing Field</div>
+						</li>
+						<li>
+						  <img src="images/orbit/9.JPG" />
+						  <div class="orbit-caption">Robot Before Hub</div>
+						</li>
+						
+						<li>
+						  <img src="images/orbit/1.JPG" />
+						  <div class="orbit-caption">Cutting boards</div>
+						</li>
+						
+						<li>
+						  <img src="images/orbit/2.JPG" />
+						  <div class="orbit-caption">The game field</div>
+						</li>
+						<li>
+						  <img src="images/orbit/3.JPG" />
+						  <div class="orbit-caption">Marketing work</div>
+						</li>
+						<li>
+						  <img src="images/orbit/5.JPG" />
+						  <div class="orbit-caption">That's our leader!</div>
+						</li>
+						<li>
+						  <img src="images/orbit/6.JPG" />
+						  <div class="orbit-caption">The exhibit</div>
+						</li>
+						<li>
+						  <img src="images/orbit/7.JPG" />
+						  <div class="orbit-caption">Team building excercise</div>
+						</li>
+						<li>
+						  <img src="images/orbit/10.JPG" />
+						  <div class="orbit-caption">Mascot thing!</div>
+						</li>
+					</ul>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		
+	</section>
+	
+	<img class="center" src="images/konami.png">
+	
+	
+	<!--<section id="footer" class="page">-->
+	<!--	<div class="row">-->
+	<!--		<div class="large-3 columns">-->
+	<!--			<h4>Other info... and stuff.</h4>-->
+	<!--		</div>-->
+	<!--		-->
+	<!--		<div class="large-3 columns">-->
+	<!--			-->
+	<!--		</div>-->
+	<!--		-->
+	<!--		<div class="large-3 columns">-->
+	<!--			-->
+	<!--		</div>-->
+	<!--		-->
+	<!--	</div>-->
+	<!--</section>-->
+	
+	
+	
+	
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="javascripts/foundation/foundation.js"></script>
+	
+	
+	<script src="javascripts/foundation/foundation.clearing.js"></script>
+	
+	<script src="javascripts/foundation/foundation.cookie.js"></script>
+	
+	<script src="javascripts/foundation/foundation.orbit.js"></script>
+	
+	<script src="javascripts/foundation/foundation.placeholder.js"></script>
+	
+	<!--<script src="javascripts/foundation/foundation.reveal.js"></script>-->
+	
+	<script src="javascripts/foundation/foundation.section.js"></script>
+	
+	<script src="javascripts/foundation/foundation.tooltips.js"></script>
+	
+	<script src="javascripts/foundation/foundation.topbar.js"></script>
+	
+	
+	
+	
+	
+	
+	
+	
+  
+  <script>
+    $(document).foundation();
+  </script>
+	<script type="text/javascript" src="javascripts/vendor/jquery.js"></script>
+	<!--<script type="text/javascript" src="javascripts/smoothscroll.js"></script>-->
+	<script src="javascripts/jquery.scrollTo.js"></script>
+	<script src="javascripts/jquery.nav.js"></script>
+	<script src="javascripts/lol.js"></script>
+	<script src="javascripts/jQueryRotateCompressed.js"></script>
+	
+	
+	
+	<script>
+$(document).ready(function() {
+	$('#nav').onePageNav({
+	currentClass: 'active',
+	changeHash: false,
+	scrollOffset: 50
+	});
+
+	var angle = 0;
+
+	setInterval(function() {
+		angle += 0.4;
+    		$("#rotator1").rotate(angle);
+    		/* angle += 1; Increases the rotating speed */
+    	}, 40);
+});
+//Nav code from trevordavis.net/blog/jquery-one-page-navigation-plugin
+</script>
+
+<script type="text/javascript">
+
+
+ function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display != 'block')
+          e.style.display = 'block';
+       else
+          e.style.display = 'none';
+    }
+    
+    
+
+</script>
+<script>
+jQuery(document).ready(function($) {
+    $('.top-bar section.top-bar-section li').click(function() {
+       $('.top-bar').removeClass('expanded');
+    });
+}(jQuery));
+</script>
+
+
+
+</body>
+</html>

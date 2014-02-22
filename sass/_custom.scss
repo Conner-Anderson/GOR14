@@ -1,0 +1,460 @@
+//Foundation Custom SASS for Genesis of Robotics
+
+
+   //Mixins
+   
+   //Variables
+   
+   $panel-radius: 12px;
+   
+   $image-radius: 20px;
+   
+   $googleplus-color: #dd4b39;
+   
+   $youtube-color: #FF3333;
+   
+    
+    //General Styles
+    /*body {
+	background: url('../images/header_gradient.png') !important;
+	//background-color: $body-bg;
+	background-attachment: fixed !important;
+	background-repeat: repeat !important;
+	//background-position: center;
+    }*/
+    
+    a {
+	font-weight: 400;
+    }
+    
+    /*body {
+	-webkit-transform: scale(-1,-1) ;
+	-moz-transform: scale(-1,-1) ;
+	-o-transform: scale(-1,-1) ;
+	-ms-transform: scale(-1,-1) ;
+	transform: scale(-1,-1) ;
+    }*/
+    
+    p {
+	
+	margin-top: 17px !important;
+    }
+    
+    .page ul{
+	margin-top: 17px;
+    }
+    
+    .center {
+	//This is great for centering images
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .text-center {
+	text-align: center;
+    }
+    
+    .rounded-image-corners {
+	//This rounds the corners of images
+        -webkit-border-radius: $image-radius;
+        -moz-border-radius: $image-radius;
+        border-radius: $image-radius;
+        
+    }
+    
+    .paragraph-margins {
+	margin-bottom: 20px;
+    }
+    
+
+    
+    .vertical-line {
+	border-left: 1px dotted $primary-color;
+    }
+    
+    .white-font {
+	color: fff;
+    }
+    
+    
+    //Section Styles
+    
+    .page {
+	//Each section should have this class for the background color. This is leftover from some funky stuff that was done earlier.
+        //width: 100%;
+        background-color: $body-bg;
+        padding-top: 30px;
+        padding-bottom: 100px;
+	
+    }
+    
+    #header {
+	
+	background: url('../images/header_gradient.png') !important;
+	//background-color: $body-bg;
+	//background-attachment: fixed !important;
+	background-repeat: repeat !important;
+	background-position: bottom !important;
+	//background-position: center;
+        
+        
+        h2 {
+            font-size: 2.3em;
+            text-align: center;
+            font-weight: 300;
+	    color: black !important;
+        }
+        
+        h3 {
+            font-family: 'FontAwesome';
+            color: lighten($genesis-purple, 3%);
+            font-size: 3em;
+            text-align: center;
+            margin-top: 2.8em;
+        }
+        
+        
+    }
+    
+    //About
+    
+    #about {
+	padding-top: 0;
+    }
+    
+    #contact {
+	background: url('img/paper.png');
+	background-repeat: repeat;
+    }
+    
+    #contact .icon{
+	font-family: 'FontAwesome';
+	font-size: 10em;
+	margin: 0px 0px 0px 0px;
+	line-height: 1;
+	
+    }
+    
+    .icon .googleplus {
+	color: $googleplus-color;
+    }
+    
+    .icon .youtube {
+	color: $youtube-color;
+    }
+    
+    
+    #footer {
+	//background-color: darken(#fff, 75%);
+	margin-bottom: 0px;
+	background: url('img/footer.jpg');
+	background-repeat: repeat-x;
+	padding-bottom: 70px;
+	
+    }
+    
+    .full-width {
+	width: 100%;
+    }
+    
+    #header-top h2 {
+	/*text-align: center;*/
+	margin: 0px;
+	color: white;
+	font-weight: 300;
+    }
+    
+	//Members
+	#members p {
+	    display: none;
+	    
+	}
+	
+	#members {
+
+		
+	    .subheader {
+		text-align: center;
+		
+		
+	    }
+	    h5,.subheader {
+	    margin: 0px 0px 0px 0px;
+	    }
+	    
+	}
+	
+    
+    //Section Panels
+        .section-panel {
+            
+            margin: 30px 30px 30px 30px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            
+            background: darken(#fff, 7%);
+            
+            border-style: solid;
+            border-width: 1px;
+            border-color: darken(#fff, 12%);
+            
+            -moz-border-radius: $panel-radius;
+            -webkit-border-radius: $panel-radius;
+            border-radius: $panel-radius;
+	    
+	    -webkit-box-shadow: 0px 6px 12px rgba(50, 50, 50, 0.65);
+	    -moz-box-shadow:    0px 6px 12px rgba(50, 50, 50, 0.65);
+	    box-shadow:         0px 6px 12px rgba(50, 50, 50, 0.65);
+            
+        }
+    
+    //Topbar
+    .name h1 a {
+        font-family: "dekar";
+	//font-weight: 300 !important;
+        //font-size: 27px;
+    }
+    
+    .best-button-topbar {
+	height: $topbar-height;
+	width: auto;
+    }
+    
+
+    .top-bar-section a {
+        -webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+    }
+    
+    #dummy {
+        width: 1px;
+    }
+    
+    .top-bar-section > .right {
+        background: none;
+    }
+    
+    .social-button {
+        font-family: "FontAwesome";
+        font-size: $topbar-link-font-size + .5em !important;
+    }
+    
+    .social-button, .youtube a:hover {
+        color: $youtube-color;
+    }
+    
+    .social-button, .googleplus a:hover {
+        color: $googleplus-color;
+    }
+    
+    
+    
+    //Specific Styles
+
+    
+    
+    
+    
+    
+    
+    
+    //Animations
+    
+    .rotate-1 img{
+	-webkit-transition: 400ms;
+	-moz-transition: 400ms;
+	-o-transition: 400ms;
+	transition: 400ms;
+	margin-bottom: 7px;
+    }
+    
+    .rotate-1:hover img{
+	
+	-webkit-transform: rotate(90deg) ;
+	-moz-transform: rotate(90deg) ;
+	-o-transform: rotate(90deg) ;
+	-ms-transform: rotate(90deg) ;
+	transform: rotate(90deg) ;
+    }
+    
+    .bump-down {
+	-webkit-transition: 400ms;
+	-moz-transition: 400ms;
+	-o-transition: 400ms;
+	transition: 400ms;
+    }
+    
+    .bump-down:hover {
+	transform: translate(0px, 25px);
+	-webkit-transform: translate(0px, 25px);
+	-moz-transform: translate(0px, 25px);
+	-o-transform: translate(0px, 25px);
+	-ms-transform: translate(0px, 25px);
+    }
+    
+    //Media Queries
+    
+    /* We use this media query to add styles to any device that supports media queries */
+    // body is added to some of these so that they are seen as higher priority than the defaults, because the defaults come later in the compiled code.  Silly, I know.
+    @media only screen {
+	
+	body {
+	    p {
+		font-size: ($paragraph-font-size - 0.10em);
+	    }
+	    
+	    h3 {
+		font-size: ($h3-font-size - 0.4em);
+	    }
+	    
+	    h2 {
+		font-size: ($h2-font-size - 0.8em);
+	    }
+	    #header #logo {
+			height: 150px;
+		    }
+	    #header h2 {
+		font-size: 25px;
+	    }
+	    
+	    .section-title-right {
+		text-align: center;
+	    }
+	    
+	    #about .subheader {
+		text-align: left;
+	    }
+	    
+	    #header {
+		padding-top: 0.8em;
+		padding-bottom: 1em;
+	    }
+	    
+	    
+	}
+	
+    }
+    /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+    @media only screen and (min-width: 768px) {
+	body {
+	    p {
+		font-size: $paragraph-font-size;
+	    }
+	    
+	    h3 {
+		font-size: $h3-font-size;
+	    }
+	    
+	    h2 {
+		font-size: $h2-font-size;
+	    }
+	    #header #logo {
+		height: 300px;
+	    }
+	    
+	    #header h2 {
+		font-size: 37px;
+		margin-bottom: 10px;
+	    }
+	    
+	    #genesisofrobotics {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	    }
+	    .section-title-right {
+		text-align: right;
+	    }
+	    
+	    #about .subheader {
+		text-align: center;
+	    }
+	    
+	    #header {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	    }
+	    
+	    
+	}
+	
+    }
+    
+    /* Used to alter styles for screens at least 1280px wide. */
+    @media only screen and (min-width: 1280px) {
+	body {
+	    #header #logo {
+		height: 350px;
+	    }
+	    
+	    #header h2 {
+		font-size: 37px;
+	    }
+	    
+	    #genesisofrobotics {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	    }
+	}
+    }
+
+    /* Used to alter styles for screens at least 1440px wide. */
+    @media only screen and (min-width: 1440px) {
+	body {
+	    #header #logo {
+		height: 500px;
+	    }
+	    
+	    #header h2 {
+		font-size: 37px;
+	    }
+	    
+	    #genesisofrobotics {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	    }
+	}
+    }
+    
+    //Other Custom Stuff
+body { 
+    .top-bar-section {
+      ul li {
+	// Apply the active link color when it has that class - Changed by Conner
+	&.active a { background: darken($topbar-dropdown-bg, 3%); font-weight: 700; }
+      }
+    
+    }
+}
+
+#rotate {
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    
+    h6 {
+	color: white;
+	margin-left: 10px;
+	margin-top: 8px;
+    }
+}
+   
+#arrow {
+    margin-bottom: 3em;
+}
+
+#lol {
+    z-index: 200;
+    position: absolute;
+    display: none;
+}
+
+//Should be a general class, I know...
+#email {
+    margin-bottom: 80px;
+}
+    

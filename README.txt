@@ -1,3 +1,3 @@
 GOR!
 Changed!
-Aw…
+Aw…But there really is Korgi!

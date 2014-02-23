@@ -10,7 +10,6 @@
 
 // Custom Variables
  $genesis-purple: #360c44;
- $nothing: #fff;
 
 // $experimental: true;
 
@@ -36,13 +35,13 @@
 // $include-xl-html-grid-classes: false;
 
 // $row-width: rem-calc(1000);
-// $column-gutter: rem-calc(30);
+$column-gutter: rem-calc(55);
 // $total-columns: 12;
 
 // We use these to control various global styles
 // $body-bg: #fff;
-// $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-color: #191919;
+$body-font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -55,7 +54,7 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+ $primary-color: lighten($genesis-purple, 20%);
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -118,9 +117,9 @@
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-// $header-font-weight: 300;
+$header-font-weight: 400;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: lighten($genesis-purple, 10%);
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -136,10 +135,10 @@
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
-// $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
+$subheader-font-color: lighten($header-font-color, 15%);
 // $subheader-font-weight: 300;
-// $subheader-top-margin: .2rem;
-// $subheader-bottom-margin: .5rem;
+ $subheader-top-margin: .5em;
+ $subheader-bottom-margin: .8em;
 
 // A general <small> styling
 // $small-font-size: 60%;
@@ -148,7 +147,7 @@
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
-// $paragraph-font-size: 1rem;
+ $paragraph-font-size: 1rem;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
@@ -183,7 +182,7 @@
 // $definition-list-margin-bottom: rem-calc(12);
 
 // We use these to style blockquotes
-// $blockquote-font-color: scale-color($header-font-color, $lightness: 35%);
+ $blockquote-font-color: #6f6f6f;
 // $blockquote-padding: rem-calc(9 20 0 19);
 // $blockquote-border: 1px solid #ddd;
 // $blockquote-cite-font-size: rem-calc(13);
@@ -776,7 +775,7 @@
 
 // We use these to set default inner padding and bottom margin
 // $panel-margin-bottom: rem-calc(20);
-// $panel-padding: rem-calc(20);
+ $panel-padding: remCalc(15px);
 
 // We use these to set default font colors
 // $panel-font-color: #333;

@@ -100,7 +100,7 @@
         
         
         h2 {
-            font-size: 2.3em;
+            font-size: 2.3rem;
             text-align: center;
             font-weight: 300;
 	    color: black !important;
@@ -109,9 +109,9 @@
         h3 {
             font-family: 'FontAwesome';
             color: lighten($genesis-purple, 3%);
-            font-size: 3em;
+            font-size: 3rem;
             text-align: center;
-            margin-top: 2.8em;
+            margin-top: 2.8rem;
         }
         
         
@@ -130,7 +130,7 @@
     
     #contact .icon{
 	font-family: 'FontAwesome';
-	font-size: 10em;
+	font-size: 10rem;
 	margin: 0px 0px 0px 0px;
 	line-height: 1;
 	
@@ -165,7 +165,7 @@
 	font-weight: 300;
     }
     
-	//Members
+	//Mrembers
 	#members p {
 	    display: none;
 	    
@@ -239,7 +239,7 @@
     
     .social-button {
         font-family: "FontAwesome";
-        font-size: $topbar-link-font-size + .5em !important;
+        font-size: $topbar-link-font-size + .5rem !important;
     }
     
     .social-button, .youtube a:hover {
@@ -254,10 +254,6 @@
     
     //Specific Styles
 
-    
-    
-    
-    
     
     
     
@@ -303,15 +299,15 @@
 	
 	body {
 	    p {
-		font-size: ($paragraph-font-size - 0.10em);
+		font-size: ($paragraph-font-size - 0.10rem);
 	    }
 	    
 	    h3 {
-		font-size: ($h3-font-size - 0.4em);
+		font-size: ($h3-font-size - 0.4rem);
 	    }
 	    
 	    h2 {
-		font-size: ($h2-font-size - 0.8em);
+		font-size: ($h2-font-size - 0.8rem);
 	    }
 	    #header #logo {
 			height: 150px;
@@ -329,8 +325,8 @@
 	    }
 	    
 	    #header {
-		padding-top: 0.8em;
-		padding-bottom: 1em;
+		padding-top: 0.8rem;
+		padding-bottom: 1rem;
 	    }
 	    
 	    
@@ -373,8 +369,8 @@
 	    }
 	    
 	    #header {
-		padding-top: 1em;
-		padding-bottom: 1em;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	    }
 	    
 	    
@@ -444,7 +440,7 @@ body {
 }
    
 #arrow {
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
 }
 
 #lol {
@@ -454,7 +450,7 @@ body {
 }
 
 //Should be a general class, I know...
-#email {
+#remail {
     margin-bottom: 80px;
 }
     

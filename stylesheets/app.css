@@ -5618,12 +5618,12 @@ meta.foundation-mq-topbar {
 }
 /* line 331, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover > a {
-  background: #272727;
+  background: #2c0a37;
   color: white;
 }
 /* line 338, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #58146f;
+  background: #2c0a37;
   color: white;
 }
 /* line 341, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -5787,7 +5787,7 @@ meta.foundation-mq-topbar {
   }
   /* line 465, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background: #272727;
+    background: #2c0a37;
     color: white;
   }
   /* line 471, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -5798,14 +5798,14 @@ meta.foundation-mq-topbar {
   }
   /* line 475, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #272727;
+    background: #2c0a37;
   }
   /* line 479, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 13.33333px;
     line-height: 40px;
     color: white;
-    background: #58146f;
+    background: #2c0a37;
   }
   /* line 484, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
@@ -5909,12 +5909,12 @@ meta.foundation-mq-topbar {
 
   /* line 597, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #2c0a37;
     color: white;
   }
   /* line 603, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #58146f;
+    background: #2c0a37;
     color: white;
   }
   /* line 611, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */

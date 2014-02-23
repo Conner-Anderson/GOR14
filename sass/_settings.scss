@@ -117,7 +117,7 @@ $body-font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-$header-font-weight: 400;
+$header-font-weight: 300;
 // $header-font-style: normal;
 $header-font-color: lighten($genesis-purple, 10%);
 // $header-line-height: 1.4;
@@ -136,7 +136,7 @@ $header-font-color: lighten($genesis-purple, 10%);
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
 $subheader-font-color: lighten($header-font-color, 15%);
-// $subheader-font-weight: 300;
+ $subheader-font-weight: 300;
  $subheader-top-margin: .5em;
  $subheader-bottom-margin: .8em;
 
@@ -1098,8 +1098,8 @@ $subheader-font-color: lighten($header-font-color, 15%);
 
 // $include-html-tooltip-classes: $include-html-classes;
 
-// $has-tip-border-bottom: dotted 1px #ccc;
-// $has-tip-font-weight: bold;
+ $has-tip-border-bottom: dotted 2px #ccc;
+ $has-tip-font-weight: regular;
 // $has-tip-font-color: #333;
 // $has-tip-border-bottom-hover: dotted 1px scale-color($primary-color, $lightness: -55%);
 // $has-tip-font-color-hover: $primary-color;
@@ -1126,11 +1126,11 @@ $subheader-font-color: lighten($header-font-color, 15%);
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: #333;
+$topbar-bg-color: $genesis-purple;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
-// $topbar-height: 45px;
+$topbar-height: 40px;
 // $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
@@ -1138,7 +1138,7 @@ $subheader-font-color: lighten($header-font-color, 15%);
 // $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: #333;
+$topbar-dropdown-bg: $genesis-purple;
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-link-bg: #333;
 // $topbar-dropdown-link-weight: normal;

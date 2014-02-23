@@ -5270,9 +5270,9 @@ table tfoot tr td {
 /* Tooltips */
 /* line 33, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip {
-  border-bottom: dotted 1px #cccccc;
+  border-bottom: dotted 2px #cccccc;
   cursor: help;
-  font-weight: bold;
+  font-weight: regular;
   color: #333333;
 }
 /* line 40, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
@@ -5382,7 +5382,7 @@ meta.foundation-mq-topbar {
 /* line 88, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333;
+  background: #360c44;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -5413,16 +5413,16 @@ meta.foundation-mq-topbar {
 /* line 115, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .fixed.expanded:not(.top-bar) .top-bar-section {
   z-index: 98;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 /* line 122, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 40px;
+  line-height: 40px;
   position: relative;
-  background: #333333;
+  background: #360c44;
   margin-bottom: 0;
 }
 /* line 131, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -5460,13 +5460,13 @@ meta.foundation-mq-topbar {
 }
 /* line 159, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name {
-  height: 45px;
+  height: 40px;
   margin: 0;
   font-size: 16px;
 }
 /* line 164, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
-  line-height: 45px;
+  line-height: 40px;
   font-size: 1.0625rem;
   margin: 0;
 }
@@ -5476,7 +5476,7 @@ meta.foundation-mq-topbar {
   color: white;
   width: 50%;
   display: block;
-  padding: 0 15px;
+  padding: 0 13.33333px;
 }
 /* line 179, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar {
@@ -5492,13 +5492,13 @@ meta.foundation-mq-topbar {
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 0 15px;
-  height: 45px;
-  line-height: 45px;
+  padding: 0 13.33333px;
+  height: 40px;
+  line-height: 40px;
 }
 /* line 197, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar.menu-icon {
-  right: 15px;
+  right: 13.33333px;
   top: 50%;
   margin-top: -16px;
   padding-left: 40px;
@@ -5531,7 +5531,7 @@ meta.foundation-mq-topbar {
 }
 /* line 241, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #333333;
+  background: #360c44;
 }
 /* line 244, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -5557,14 +5557,14 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #333333;
+  background: #360c44;
   font-size: 16px;
   margin: 0;
 }
 /* line 281, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #1a1a1a;
+  border-top: solid 1px #1b0622;
   clear: both;
   height: 1px;
   width: 100%;
@@ -5575,18 +5575,18 @@ meta.foundation-mq-topbar {
   width: 100%;
   color: white;
   padding: 12px 0 12px 0;
-  padding-left: 15px;
+  padding-left: 13.33333px;
   font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
-  background: #333333;
+  background: #360c44;
 }
 /* line 300, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
   background: #7b1b9b;
   font-size: 0.8125rem;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 13.33333px;
+  padding-left: 13.33333px;
 }
 /* line 305, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
@@ -5633,7 +5633,7 @@ meta.foundation-mq-topbar {
 }
 /* line 349, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
-  padding: 15px;
+  padding: 13.33333px;
 }
 /* line 352, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown {
@@ -5648,7 +5648,7 @@ meta.foundation-mq-topbar {
   border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
-  margin-right: 15px;
+  margin-right: 13.33333px;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -5678,7 +5678,7 @@ meta.foundation-mq-topbar {
 /* line 387, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 15px;
+  padding: 8px 13.33333px;
 }
 /* line 390, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
@@ -5691,12 +5691,12 @@ meta.foundation-mq-topbar {
 /* line 396, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 a {
   color: white;
-  line-height: 22.5px;
+  line-height: 20px;
   display: block;
 }
 /* line 402, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.has-form {
-  padding: 8px 15px;
+  padding: 8px 13.33333px;
 }
 /* line 403, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li .button {
@@ -5704,7 +5704,7 @@ meta.foundation-mq-topbar {
 }
 /* line 406, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown label {
-  padding: 8px 15px 2px;
+  padding: 8px 13.33333px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
@@ -5720,7 +5720,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 422, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    background: #360c44;
     *zoom: 1;
     overflow: visible;
   }
@@ -5754,7 +5754,7 @@ meta.foundation-mq-topbar {
   }
   /* line 439, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #333333;
+    background: #360c44;
   }
 
   /* line 442, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -5792,9 +5792,9 @@ meta.foundation-mq-topbar {
   }
   /* line 471, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
-    padding: 0 15px;
-    line-height: 45px;
-    background: #333333;
+    padding: 0 13.33333px;
+    line-height: 40px;
+    background: #360c44;
   }
   /* line 475, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -5802,8 +5802,8 @@ meta.foundation-mq-topbar {
   }
   /* line 479, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
-    padding: 0 15px;
-    line-height: 45px;
+    padding: 0 13.33333px;
+    line-height: 40px;
     color: white;
     background: #7b1b9b;
   }
@@ -5813,7 +5813,7 @@ meta.foundation-mq-topbar {
   }
   /* line 493, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a {
-    padding-right: 35px !important;
+    padding-right: 33.33333px !important;
   }
   /* line 495, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a:after {
@@ -5825,7 +5825,7 @@ meta.foundation-mq-topbar {
     border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
     border-top-style: solid;
     margin-top: -2.5px;
-    top: 22.5px;
+    top: 20px;
   }
   /* line 504, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved {
@@ -5860,7 +5860,7 @@ meta.foundation-mq-topbar {
     color: white;
     line-height: 1;
     white-space: nowrap;
-    padding: 12px 15px;
+    padding: 12px 13.33333px;
     background: #333333;
   }
   /* line 544, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -5877,16 +5877,16 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #4e4e4e;
+    border-right: solid 1px #5c1474;
     clear: none;
-    height: 45px;
+    height: 40px;
     width: 0;
   }
   /* line 567, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #333333;
-    padding: 0 15px;
-    height: 45px;
+    background: #360c44;
+    padding: 0 13.33333px;
+    height: 40px;
   }
   /* line 575, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .right li .dropdown {
@@ -6219,7 +6219,7 @@ p aside {
 /* line 260, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: #58146f;
   text-rendering: optimizeLegibility;
@@ -6268,7 +6268,7 @@ h6 {
 .subheader {
   line-height: 1.4;
   color: #8c1fb0;
-  font-weight: normal;
+  font-weight: 300;
   margin-top: 0.5em;
   margin-bottom: 0.8em;
 }
@@ -7906,7 +7906,7 @@ p {
 
 /* line 219, ../sass/_custom.scss */
 .best-button-topbar {
-  height: 45px;
+  height: 40px;
   width: auto;
 }
 
@@ -8091,7 +8091,7 @@ p {
 }
 /* line 422, ../sass/_custom.scss */
 body .top-bar-section ul li.active a {
-  background: #2b2b2b;
+  background: #2c0a37;
   font-weight: 700;
 }
 

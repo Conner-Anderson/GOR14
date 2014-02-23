@@ -222,7 +222,7 @@
     }
     
 
-    .top-bar-section a {
+    .top-bar-section a, i {
         -webkit-transition: 300ms;
 	-moz-transition: 300ms;
 	-o-transition: 300ms;
@@ -237,16 +237,16 @@
         background: none;
     }
     
-    .social-button {
+    .social-button a {
         font-family: "FontAwesome";
-        font-size: $topbar-link-font-size + .5rem !important;
+        font-size: $topbar-link-font-size + 0.5rem !important;
     }
     
-    .social-button, .youtube a:hover {
+    .social-button, .youtube a:hover i{
         color: $youtube-color;
     }
     
-    .social-button, .googleplus a:hover {
+    .social-button, .googleplus a:hover i{
         color: $googleplus-color;
     }
     

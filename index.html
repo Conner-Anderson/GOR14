@@ -49,14 +49,13 @@
 	<!--This is the top bar. Let Conner work with it: its a bit convoluted and tricky.-->
 	<div class="fixed">
 		
-		<nav class="top-bar">
+		<nav class="top-bar" data-topbar>
+
 		  <ul class="title-area">
-		    
 		    <li class="name">
 			<!--Leave Empty	-->
 		    </li>
-		   
-		    <li class="toggle-topbar menu-icon"><a href="#header"><span>Menu</span></a></li>
+		    <li class="toggle-topbar menu-icon"><a href="#header">Menu</a></li>
 		  </ul>
 		
 		  <section class="top-bar-section">
@@ -715,6 +714,7 @@
  	<script src="js/vendor/jquery.js"></script>
  	<script src="js/vendor/fastclick.js"></script>
 	<script src="js/foundation.min.js"></script>
+	<!--<script src="js/foundation/foundation.topbar.js"></script>-->
 	
 	<!--<script type="text/javascript" src="javascripts/smoothscroll.js"></script>-->
 	<script src="js/jquery.scrollTo.js"></script>
@@ -725,23 +725,23 @@
 	
 	
 	<script>
-$(document).ready(function() {
-	$('#nav').onePageNav({
-	currentClass: 'active',
-	changeHash: false,
-	scrollOffset: 50
-	});
+		$(document).ready(function() {
+			$('#nav').onePageNav({
+			currentClass: 'active',
+			changeHash: false,
+			scrollOffset: 50
+			});
 
-	var angle = 0;
+		var angle = 0;
 
-	setInterval(function() {
-		angle += 0.4;
-    		$("#rotator1").rotate(angle);
-    		/* angle += 1; Increases the rotating speed */
-    	}, 40);
-});
-//Nav code from trevordavis.net/blog/jquery-one-page-navigation-plugin
-</script>
+		setInterval(function() {
+			angle += 0.4;
+	    		$("#rotator1").rotate(angle);
+	    		/* angle += 1; Increases the rotating speed */
+	    	}, 40);
+		});
+	//Nav code from trevordavis.net/blog/jquery-one-page-navigation-plugin
+	</script>
 
 <script type="text/javascript">
 

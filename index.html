@@ -49,7 +49,7 @@
 	<!--This is the top bar. Let Conner work with it: its a bit convoluted and tricky.-->
 	<div class="fixed">
 		
-		<nav class="top-bar" data-topbar data-options='{"scrolltop": "false"}'>
+		<nav class="top-bar" data-topbar data-options='{scrolltop: "false"}'>
 
 		  <ul class="title-area">
 		    <li class="name">
@@ -768,7 +768,11 @@ jQuery(document).ready(function($) {
 
 
 <script>
-  $(document).foundation();
+  $(document).foundation()
+  	//The following sets options for the topbar
+  	.foundation('topbar', {
+  		scrolltop: false
+  	});
 </script>
 </body>
 </html>

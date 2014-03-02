@@ -49,14 +49,13 @@
 	<!--This is the top bar. Let Conner work with it: its a bit convoluted and tricky.-->
 	<div class="fixed">
 		
-		<nav class="top-bar">
+		<nav class="top-bar" data-topbar data-options='{scrolltop: "false"}'>
+
 		  <ul class="title-area">
-		    
 		    <li class="name">
 			<!--Leave Empty	-->
 		    </li>
-		   
-		    <li class="toggle-topbar menu-icon"><a href="#header"><span>Menu</span></a></li>
+		    <li class="toggle-topbar menu-icon"><a href="#header">Menu</a></li>
 		  </ul>
 		
 		  <section class="top-bar-section">
@@ -95,6 +94,8 @@
 				<li class=""><a href="#media">Media</a></li>
 				
 				<!--Copies of the links above-->
+			</ul>
+			<ul>
 				<li class="youtube social-button show-for-small"><a  href="http://www.youtube.com/user/GenesisofRobotics" target="_blank"><i class="icon-youtube-play"></i></a></li>
 				
 				<li class="googleplus social-button show-for-small"><a  href="https://plus.google.com/100709379743342188196" target="_blank"><i class="icon-google-plus"></i></a></li>
@@ -102,11 +103,6 @@
 				<li class=" show-for-small"><a href="http://best.eng.auburn.edu/" target="_blank">
 					<img class=" best-button-topbar"  src="images/BEST_logo_atom_white.png" onmouseover="this.src='images/BEST_logo_atom_color.png'" onmouseout="this.src='images/BEST_logo_atom_white.png'">
 					</a></li>
-				
-				
-				
-				
-				
 				
 			
 			</ul>
@@ -715,6 +711,7 @@
  	<script src="js/vendor/jquery.js"></script>
  	<script src="js/vendor/fastclick.js"></script>
 	<script src="js/foundation.min.js"></script>
+	<!--<script src="js/foundation/foundation.topbar.js"></script>-->
 	
 	<!--<script type="text/javascript" src="javascripts/smoothscroll.js"></script>-->
 	<script src="js/jquery.scrollTo.js"></script>
@@ -725,23 +722,23 @@
 	
 	
 	<script>
-$(document).ready(function() {
-	$('#nav').onePageNav({
-	currentClass: 'active',
-	changeHash: false,
-	scrollOffset: 50
-	});
+		$(document).ready(function() {
+			$('#nav').onePageNav({
+			currentClass: 'active',
+			changeHash: false,
+			scrollOffset: 50
+			});
 
-	var angle = 0;
+		var angle = 0;
 
-	setInterval(function() {
-		angle += 0.4;
-    		$("#rotator1").rotate(angle);
-    		/* angle += 1; Increases the rotating speed */
-    	}, 40);
-});
-//Nav code from trevordavis.net/blog/jquery-one-page-navigation-plugin
-</script>
+		setInterval(function() {
+			angle += 0.4;
+	    		$("#rotator1").rotate(angle);
+	    		/* angle += 1; Increases the rotating speed */
+	    	}, 40);
+		});
+	//Nav code from trevordavis.net/blog/jquery-one-page-navigation-plugin
+	</script>
 
 <script type="text/javascript">
 
@@ -758,11 +755,21 @@ $(document).ready(function() {
 
 </script>
 <script>
+//This closes the mobile menu when a link in it is used
 jQuery(document).ready(function($) {
-    $('.top-bar section.top-bar-section li').click(function() {
+    $('.top-bar section.top-bar-section li a').on( "click", function() {
        $('.top-bar').removeClass('expanded');
+       $('.top-bar').parent().addClass('fixed');
     });
 }(jQuery));
+</script>
+
+<script>
+  $(document).foundation()
+  	//The following sets options for the topbar
+  	.foundation('topbar', {
+  		scrolltop: false
+  	});
 </script>
 
 </body>

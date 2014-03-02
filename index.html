@@ -758,8 +758,9 @@
 
 </script>
 <script>
+//This closes the mobile menu when a link in it is used
 jQuery(document).ready(function($) {
-    $('.top-bar section.top-bar-section li a').click(function() {
+    $('.top-bar section.top-bar-section li a').on( "click", function() {
        $('.top-bar').removeClass('expanded');
        $('.top-bar').parent().addClass('fixed');
     });

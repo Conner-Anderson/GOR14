@@ -7850,7 +7850,7 @@ p {
 /* line 148, ../sass/_custom.scss */
 #footer {
   margin-bottom: 0px;
-  background: url("img/footer.jpg");
+  background: url("./images/css/footer.jpg");
   background-repeat: repeat-x;
   padding-bottom: 70px;
 }

@@ -138,14 +138,14 @@
 		</div>
 	</section>
 
-	<!--<section id="wind" class"page">
+	<section id="wind" class"page">
 		<div class="row">
 			<div class="large-10 small-centered columns" style="height:1500px; position:relative" >
 				<img id="rotator1" class="center" src="images/rotator1.png" style="position:absolute;">
 				<img id="rotator2" class="center" src="images/rotator2.png" style="position:absolute;">
 			</div>
 		</div>
-	</section>-->
+	</section>
 	
 	<section id="about" class="page">
 		
@@ -761,7 +761,7 @@
 
 		setInterval(function() {
 			angle += 0.4;
-	    		$("#rotator1").rotate(angle);
+	    		$("#rotator1").rotate(angle * -1);
 	    		/* angle += 1; Increases the rotating speed */
 	    	}, 40);
 		});

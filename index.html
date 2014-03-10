@@ -48,7 +48,7 @@
 	<div class="show-for-small" id="rotate"><h6 class=" hide-for-portrait" >Please rotate device to portrait.</h6></div>
 
 	<!--This is the top bar. Let Conner work with it: its a bit convoluted and tricky.-->
-	<div class="fixed">
+	<div class="fixed lol-container">
 		
 		<nav class="top-bar" data-topbar data-options='{scrolltop: "false"}'>
 
@@ -113,10 +113,9 @@
 		    
 		  </section>
 		</nav>
-		<img src="http://img1.123tagged.com/en/DiscoBalls/14.gif" alt="discoBall" id="discoBall" class="center" style="display: none;">
 	</div>
 	
-	<section id="header">
+	<section id="header" style="background: url('images/header_gradient.png'); background-repeat: repeat; background-position: bottom ;">
 		<div class="full-width">
 			<div class="row">
 				<div class="large-10 small-centered columns">
@@ -642,6 +641,7 @@
 	</section>
 	
 	<section id="media" class="page">
+
 		<div class="row">
 			<div class="large-12 columns">
 				<h2 class="text-center">Media</h2>
@@ -651,52 +651,58 @@
 		<div class="row">
 			<div class="large-10 large-centered columns">
 				
-				<ul class="example-orbit" data-orbit>
-					<li>
-						<img src="images/orbit/8.JPG" />
-						<div class="orbit-caption">Robot before Hub on Testing Field</div>
-					</li>
-					<li>
-						<img src="images/orbit/9.JPG" />
-						<div class="orbit-caption">Robot Before Hub</div>
-					</li>
-						
-					<li>
-						<img src="images/orbit/1.JPG" />
-						<div class="orbit-caption">Cutting boards</div>
-					</li>
-						
-					<li>
-						<img src="images/orbit/2.JPG" />
-						<div class="orbit-caption">The game field</div>
-					</li>
-					<li>
-						<img src="images/orbit/3.JPG" />
-						<div class="orbit-caption">Marketing work</div>
-					</li>
-					<li>
-						<img src="images/orbit/5.JPG" />
-						<div class="orbit-caption">That's our leader!</div>
-					</li>
-					<li>
-						<img src="images/orbit/6.JPG" />
-						<div class="orbit-caption">The exhibit</div>
-					</li>
-					<li>
-						<img src="images/orbit/7.JPG" />
-						<div class="orbit-caption">Team building excercise</div>
-					</li>
-					<li>
-						<img src="images/orbit/10.JPG" />
-						<div class="orbit-caption">Mascot thing!</div>
-					</li>
-				</ul>
-				
-				
-				
+				<a href="#" data-reveal-id="mediaModal" class="radius button center">Click for Image Gallery</a>
+
+				<div id="mediaModal" class="reveal-modal xlarge" data-reveal>
+				  <div class="row">
+				  	<div class="large-9 small-12 large-centered columns">
+				  		<ul class="example-orbit" data-orbit>
+				  			<li>
+				  				<img src="images/orbit/8.JPG" />
+				  				<div class="orbit-caption">Robot before Hub on Testing Field</div>
+				  			</li>
+				  			<li>
+				  				<img src="images/orbit/9.JPG" />
+				  				<div class="orbit-caption">Robot Before Hub</div>
+				  			</li>
+				  				
+				  			<li>
+				  				<img src="images/orbit/1.JPG" />
+				  				<div class="orbit-caption">Cutting boards</div>
+				  			</li>
+				  				
+				  			<li>
+				  				<img src="images/orbit/2.JPG" />
+				  				<div class="orbit-caption">The game field</div>
+				  			</li>
+				  			<li>
+				  				<img src="images/orbit/3.JPG" />
+				  				<div class="orbit-caption">Marketing work</div>
+				  			</li>
+				  			<li>
+				  				<img src="images/orbit/5.JPG" />
+				  				<div class="orbit-caption">That's our leader!</div>
+				  			</li>
+				  			<li>
+				  				<img src="images/orbit/6.JPG" />
+				  				<div class="orbit-caption">The exhibit</div>
+				  			</li>
+				  			<li>
+				  				<img src="images/orbit/7.JPG" />
+				  				<div class="orbit-caption">Team building excercise</div>
+				  			</li>
+				  			<li>
+				  				<img src="images/orbit/10.JPG" />
+				  				<div class="orbit-caption">Mascot thing!</div>
+				  			</li>
+				  		</ul>
+				  		<h3 class="text-center subheader show-for-small">Swipe through slideshow</h3>
+				  	</div>
+				  </div>
+				  <a class="close-reveal-modal">&#215;</a>
+				</div>
 			</div>
-		</div>
-		
+		</div>	
 	</section>
 	
 	<img class="center" src="images/konami.png">
@@ -732,6 +738,7 @@
  	<script src="js/vendor/jquery.js"></script>
  	<script src="js/vendor/fastclick.js"></script>
 	<script src="js/foundation.min.js"></script>
+	<script src="js/foundation/foundation.reveal.js"></script>
 	<!--<script src="js/foundation/foundation.topbar.js"></script>-->
 	
 	<!--<script type="text/javascript" src="javascripts/smoothscroll.js"></script>-->
@@ -775,6 +782,15 @@
     
 
 </script>
+<script type="text/javascript">
+	$(document).foundation();
+
+	$('#mediaModal').on('opened', function () { 
+	  $(window).trigger('resize');
+	});
+</script>
+    
+
 <script>
 //This closes the mobile menu when a link in it is used
 jQuery(document).ready(function($) {

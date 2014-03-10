@@ -25,6 +25,7 @@
                     
                     if (kkeys.toString().indexOf(konami) >= 0) {
                         $(document).unbind('keydown', arguments.callee);
+                        $('.lol-container').append("<img src='http://img1.123tagged.com/en/DiscoBalls/14.gif' alt='discoBall' id='discoBall'class='center' style='display: none;'>");
                         $('#discoBall').show();
                         $(document).bind('mousemove scroll', function(e){
                             $('#lol').css({

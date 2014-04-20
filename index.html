@@ -115,7 +115,7 @@
 		</nav>
 	</div>
 	
-	<section id="header" style="background: url('images/header_gradient.png'); background-repeat: repeat; background-position: bottom ;">
+	<section id="header" style="background: url('images/header_gradient.png'); background-repeat: repeat;">
 		<div class="full-width">
 			<div class="row">
 				<div class="large-10 small-centered columns">
@@ -138,14 +138,13 @@
 		</div>
 	</section>
 
-	<!--<section id="wind" class"page">
+	<section id="wind" class="page" style="background: url(images/turbine_background.png); background-position: center top; background-repeat: no-repeat;">
 		<div class="row">
-			<div class="large-10 small-centered columns" style="height:1500px; position:relative" >
-				<img id="rotator1" class="center" src="images/rotator1.png" style="position:absolute;">
-				<img id="rotator2" class="center" src="images/rotator2.png" style="position:absolute;">
+			<div class="large-10 small-centered columns" style="height:1000px; position:relative;  " >
+				<img id="turbine1" src="images/turbine_blades.png" style="position:absolute; top: 15px; left: 63px;">
 			</div>
 		</div>
-	</section>-->
+	</section>
 	
 	<section id="about" class="page">
 		
@@ -744,10 +743,10 @@
 		var angle = 0;
 
 		setInterval(function() {
-			angle += 0.4;
-	    		$("#rotator1").rotate(angle);
+			angle += 1;
+	    		$("#turbine1").rotate(angle);
 	    		/* angle += 1; Increases the rotating speed */
-	    	}, 40);
+	    	}, 35);
 		});
 	
 	</script>

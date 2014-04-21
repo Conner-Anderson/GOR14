@@ -7,7 +7,7 @@ $(document).ready(function() {
             }, 35);
 
     $( "#wind" ).click(function() {
-        $('#blade1').toggleClass('moved');
+        $('#blade1, #blade2, #blade3').toggleClass('moved');
     });
 
     // $(function() {

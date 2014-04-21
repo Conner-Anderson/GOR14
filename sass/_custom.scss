@@ -1,7 +1,14 @@
 //Foundation Custom SASS for Genesis of Robotics
 
    //Mixins
-   
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+    //@include transition(all, blah, blah);
    //Variables
    
    $panel-radius: 12px;
@@ -447,8 +454,8 @@ body {
             top: 180px; 
             left: 727px; 
             -webkit-transform: rotate(270deg); 
-            transform: rotate(20deg); 
-            -ms-transform: rotate(20deg);
+            transform: rotate(270deg); 
+            -ms-transform: rotate(270deg);
         }
         #blade2 {
             position:absolute; 
@@ -460,27 +467,27 @@ body {
         }
         #blade2.moved {
 
-            top: 180px; 
-            left: 727px; 
-            -webkit-transform: rotate(270deg); 
-            transform: rotate(20deg); 
-            -ms-transform: rotate(20deg);
+            top: 280px; 
+            left: 670px; 
+            -webkit-transform: rotate(150deg); 
+            transform: rotate(150deg); 
+            -ms-transform: rotate(150deg);
         }
         #blade3 {
             position:absolute; 
-            top: 448px; 
-            left: 335px; 
+            top: 504px; 
+            left: 655px; 
             -webkit-transform: rotate(8deg); 
             transform: rotate(8deg); 
             -ms-transform: rotate(8deg);
         }
         #blade3.moved {
 
-            top: 180px; 
-            left: 727px; 
-            -webkit-transform: rotate(270deg); 
-            transform: rotate(20deg); 
-            -ms-transform: rotate(20deg);
+            top: 278px; 
+            left: 780px; 
+            -webkit-transform: rotate(30deg); 
+            transform: rotate(30deg); 
+            -ms-transform: rotate(30deg);
         }
 
 

@@ -8,6 +8,7 @@ $(document).ready(function() {
 
     $( "#wind" ).click(function() {
         $('#blade1, #blade2, #blade3').toggleClass('moved');
+        $('#about').slideToggle(1000)
     });
 
     //Closes mobile menu on link click

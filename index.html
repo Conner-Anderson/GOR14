@@ -115,7 +115,7 @@
 		</nav>
 	</div>
 	
-	<section id="header" style="background: url('images/header_gradient.png'); background-repeat: repeat; background-position: bottom ;">
+	<section id="header" style="background: url('images/header_gradient.png'); background-repeat: repeat; background-position: bottom;">
 		<div class="full-width">
 			<div class="row">
 				<div class="large-10 small-centered columns">
@@ -138,14 +138,20 @@
 		</div>
 	</section>
 
-	<!--<section id="wind" class"page">
+	<section id="wind" class="page" style="background: url(images/turbine_background.png); background-position: center top; background-repeat: no-repeat;">
 		<div class="row">
-			<div class="large-10 small-centered columns" style="height:1500px; position:relative" >
-				<img id="rotator1" class="center" src="images/rotator1.png" style="position:absolute;">
-				<img id="rotator2" class="center" src="images/rotator2.png" style="position:absolute;">
+			<div class="small-12 small-centered columns" style="height:1000px; position:relative;  " >
+				<img class="center"id="turbine1" src="images/turbine_blades.png" style="position:absolute; top: 0px; left: 0px;">
+			</div>
+				
+				
+				<!-- <img class="transition1" id="blade1" src="images/turbine_blade.png">
+				<img class="transition1" id="blade2" src="images/turbine_blade.png">
+				<img class="transition1" id="blade3" src="images/turbine_blade.png"> -->
+
 			</div>
 		</div>
-	</section>-->
+	</section>
 	
 	<section id="about" class="page">
 		
@@ -730,6 +736,7 @@
 	<script src="js/jquery.nav.js"></script>
 	<script src="js/lol.js"></script>
 	<script src="js/jQueryRotateCompressed.js"></script>
+	<script src="js/custom.js"></script>
 	
 	
 	
@@ -741,13 +748,6 @@
 			scrollOffset: 50
 			});
 		//Nav code from trevordavis.net/blog/jquery-one-page-navigation-plugin
-		var angle = 0;
-
-		setInterval(function() {
-			angle += 0.4;
-	    		$("#rotator1").rotate(angle);
-	    		/* angle += 1; Increases the rotating speed */
-	    	}, 40);
 		});
 	
 	</script>
@@ -772,17 +772,6 @@
 	$('#mediaModal').on('opened', function () { 
 	  $(window).trigger('resize');
 	});
-</script>
-    
-
-<script>
-//This closes the mobile menu when a link in it is used
-jQuery(document).ready(function($) {
-    $('.top-bar section.top-bar-section li a').on( "click", function() {
-       $('.top-bar').removeClass('expanded');
-       $('.top-bar').parent().addClass('fixed');
-    });
-}(jQuery));
 </script>
 
 <script>

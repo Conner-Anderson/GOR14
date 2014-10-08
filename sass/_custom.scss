@@ -196,12 +196,7 @@
 	    
 	}
 
-    #operational {
-        transform: translate(0, 100%);
-        -webkit-transform: translate(0, 100%);
-        -o-transform: translate(0, 70%);
-        -ms-transform: translate(0, 70%);
-    }
+
 	
     
     //Section Panels
@@ -347,6 +342,15 @@
 		padding-top: 0.8rem;
 		padding-bottom: 1rem;
 	    }
+
+        
+
+        #operational {
+            transform: translate(0, 0);
+            -webkit-transform: translate(0, 0);
+            -o-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+        }
 	    
 	    
 	}
@@ -391,6 +395,13 @@
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	    }
+
+        #operational {
+            transform: translate(0, -200%);
+            -webkit-transform: translate(0, -200%);
+            -o-transform: translate(0, -200%);
+            -ms-transform: translate(0, -200%);
+        }
 	    
 	    
 	}

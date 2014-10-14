@@ -1,7 +1,14 @@
 //Foundation Custom SASS for Genesis of Robotics
 
    //Mixins
-   
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+    //@include transition(all, blah, blah);
    //Variables
    
    $panel-radius: 12px;
@@ -37,6 +44,10 @@
     p {
 	
 	margin-top: 17px !important;
+    }
+
+    .p-size-1{
+        font-size: 1.2rem;
     }
     
     .page ul{
@@ -77,8 +88,8 @@
 	border-left: 1px dotted $primary-color;
     }
     
-    .white-font {
-	color: fff;
+    .light-font {
+	color: #fff;
     }
     
     
@@ -111,6 +122,7 @@
             margin-top: 2.8rem;
         }  
     }
+
     
     //About
     
@@ -160,11 +172,15 @@
 	font-weight: 300;
     }
     
-	//Mrembers
-	#members p {
-	    display: none;
-	    
-	}
+	//Members
+
+    #members p, #members h3, #members h4{
+        text-align: center;
+    }
+
+    #members span {
+        font-weight: bold;
+    }
 	
 	#members {
 
@@ -179,6 +195,7 @@
 	    }
 	    
 	}
+
 	
     
     //Section Panels
@@ -324,6 +341,15 @@
 		padding-top: 0.8rem;
 		padding-bottom: 1rem;
 	    }
+
+        
+
+        #operational {
+            transform: translate(0, 0);
+            -webkit-transform: translate(0, 0);
+            -o-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+        }
 	    
 	    
 	}
@@ -368,6 +394,13 @@
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	    }
+
+        #operational {
+            transform: translate(0, -250%);
+            -webkit-transform: translate(0, -250%);
+            -o-transform: translate(0, -250%);
+            -ms-transform: translate(0, -250%);
+        }
 	    
 	    
 	}
@@ -421,19 +454,65 @@ body {
     }
 }
 
-#rotate {
-    z-index: 100;
-    position: fixed;
-    left: 0;
-    top: 0;
-
+.transition1 {
     
-    h6 {
-	color: white;
-	margin-left: 10px;
-	margin-top: 8px;
-    }
+    -webkit-transition: 1.3s;
+    -moz-transition: 1.3s;
+    -o-transition: 1.3s;
+    transition: 1.3s;
 }
+
+//Blades:
+        #blade1 {
+            position:absolute; 
+            top: 448px; 
+            left: 335px; 
+            -webkit-transform: rotate(8deg); 
+            transform: rotate(8deg); 
+            -ms-transform: rotate(8deg);
+        }
+        #blade1.moved {
+
+            top: 180px; 
+            left: 727px; 
+            -webkit-transform: rotate(270deg); 
+            transform: rotate(270deg); 
+            -ms-transform: rotate(270deg);
+        }
+        #blade2 {
+            position:absolute; 
+            top: 477px; 
+            left: 503px; 
+            -webkit-transform: rotate(8deg); 
+            transform: rotate(8deg); 
+            -ms-transform: rotate(8deg);
+        }
+        #blade2.moved {
+
+            top: 280px; 
+            left: 670px; 
+            -webkit-transform: rotate(150deg); 
+            transform: rotate(150deg); 
+            -ms-transform: rotate(150deg);
+        }
+        #blade3 {
+            position:absolute; 
+            top: 504px; 
+            left: 655px; 
+            -webkit-transform: rotate(8deg); 
+            transform: rotate(8deg); 
+            -ms-transform: rotate(8deg);
+        }
+        #blade3.moved {
+
+            top: 278px; 
+            left: 780px; 
+            -webkit-transform: rotate(30deg); 
+            transform: rotate(30deg); 
+            -ms-transform: rotate(30deg);
+        }
+
+
    
 #arrow {
     margin-bottom: 3rem;

@@ -18,6 +18,8 @@
    $googleplus-color: #dd4b39;
    
    $youtube-color: #FF3333;
+
+   $twitter-color: #55ACEE;
    
     
     //General Styles
@@ -260,6 +262,10 @@
     
     .social-button, .googleplus a:hover i{
         color: $googleplus-color;
+    }
+
+    .social-button, .twitter a:hover i{
+        color: $twitter-color;
     }
     
     
